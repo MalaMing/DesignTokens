@@ -76,7 +76,7 @@
   --color-red-500: #c74938;
   --color-red-600: #9f3a2d;
   --font-family-poppins: Poppins;
-  --font-size-xs: 12;
+  --text-size-eiei: 12;
   --font-size-sm: 14;
   --font-size-5xl: 48;
   --font-size-6xl: 60;
@@ -113,6 +113,8 @@
   --font-line-height-2xl: 36;
   --font-line-height-3xl: 46;
   --font-line-height-4xl: 54;
+  --gap-ha:3;
+  --m-tk: 2;
   --spacing-1: 4;
   --spacing-2: 8;
   --spacing-3: 12;
@@ -297,10 +299,16 @@
   --semantic-border-radius-button-sm: 4;
   --semantic-border-radius-button-md: 6;
   --semantic-border-radius-button-lg: 8;
-
+ 
   --components-btn-primary-text-color: #ffffff;
   --components-btn-primary-bg: #ff9533;
   --components-btn-primary-border: #ffffff;
+
+  --radius-eueu: 32;
+
+  --text-subtitle-m-line-height: var(--semantic-text-subtitle-m-line-height);
+  --text-heading-h3-font-size: var(--semantic-text-heading-h3-font-size);
+  --font-heading-h3: var(--semantic-text-heading-h3-font-weight);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -316,7 +324,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.text-button-s {
+.text-button-s-new {
   /* font-size: theme(--semantic-text-button-s-font-size); */
   line-height: theme(--semantic-text-button-s-line-height);
   font-weight: theme(--semantic-text-button-s-font-weight);
@@ -326,3 +334,8 @@ body {
   border-radius: theme(--semantic-border-radius-button-sm);
   text-align: center;
 }
+
+
+
+
+
